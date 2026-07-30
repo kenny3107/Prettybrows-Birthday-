@@ -2263,3 +2263,29 @@ padding:15px 24px;
     z-index: 999 !important;
     margin: 40px auto !important;
 }
+.next-btn{
+    display:block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    position:relative !important;
+    z-index:99999 !important;
+}
+.page{
+    animation: none !important;
+    transform: none !important;
+}
+
+.page.active{
+    animation: pageAppear 0.8s ease forwards !important;
+}
+
+@keyframes pageAppear{
+    from{
+        opacity:0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
