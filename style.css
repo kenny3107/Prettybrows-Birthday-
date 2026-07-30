@@ -2222,3 +2222,17 @@ padding:15px 24px;
 .next-btn {
     margin: 40px auto !important;
 }
+.galaxy-container{
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.memory-space{
+    height: 1200px !important;
+    overflow: visible !important;
+}
+
+.next-btn{
+    position: relative !important;
+    z-index: 9999 !important;
+}
