@@ -2174,3 +2174,21 @@ padding:15px 24px;
 }
 
 }
+.next-btn{
+    display:block;
+    margin:30px auto;
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d88;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    position:relative;
+    z-index:999;
+}
+
+.memory-note{
+    position:relative;
+    z-index:10;
+}
