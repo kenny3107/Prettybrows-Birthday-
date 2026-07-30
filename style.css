@@ -1135,13 +1135,11 @@ transform:translateY(0px);
 .p8{top:72%;left:38%;animation-delay:2.2s;}
 .p9{top:66%;right:12%;animation-delay:1.4s;}
 .p10{top:84%;left:50%;animation-delay:3s;}
-
 .p11{top:8%;left:12%;}
 .p12{top:12%;left:44%;}
 .p13{top:7%;right:10%;}
 .p14{top:40%;left:18%;}
 .p15{top:36%;right:18%;}
-
 .p16{top:66%;left:12%;}
 .p17{top:58%;left:45%;}
 .p18{top:70%;right:12%;}
@@ -2191,4 +2189,14 @@ padding:15px 24px;
 .memory-note{
     position:relative;
     z-index:10;
+}
+.galaxy-container,
+.memory-space {
+    height: auto !important;
+    min-height: 100vh;
+    overflow: visible !important;
+}
+
+.memory-photo {
+    position: relative;
 }
