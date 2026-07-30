@@ -2200,3 +2200,25 @@ padding:15px 24px;
 .memory-photo {
     position: relative;
 }
+.galaxy-container {
+    height: auto !important;
+    min-height: 1200px;
+    overflow: visible !important;
+}
+
+.memory-space {
+    height: auto !important;
+    min-height: 1000px;
+    overflow: visible !important;
+}
+
+.memory-note,
+.next-btn {
+    position: relative !important;
+    z-index: 9999 !important;
+    display: block !important;
+}
+
+.next-btn {
+    margin: 40px auto !important;
+}
