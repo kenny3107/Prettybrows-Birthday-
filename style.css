@@ -2317,3 +2317,46 @@ body{
 .memory-photo{
     position:absolute !important;
 }
+/* STOP ALL CONTINUOUS MOVEMENT */
+
+html, body {
+    animation: none !important;
+    transform: none !important;
+}
+
+body::before,
+body::after {
+    animation: none !important;
+    transform: none !important;
+}
+
+#stars,
+#hearts {
+    animation: none !important;
+}
+
+#stars *,
+#hearts * {
+    animation: none !important;
+}
+
+.glass-card,
+.page,
+.memory-photo {
+    animation-iteration-count: 1 !important;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    transform: none !important;
+}
+
+.blob {
+    animation: none !important;
+}
+.page,
+.glass-card {
+    transform: none !important;
+}
