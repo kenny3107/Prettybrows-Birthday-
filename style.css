@@ -2360,3 +2360,6 @@ body {
 .glass-card {
     transform: none !important;
 }
+.memory-photo{
+    transform: scale(0.9);
+}
